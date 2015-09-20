@@ -1,0 +1,32 @@
+{
+  "name": "karma-cukes",
+  "version": "0.0.1",
+  "description": "A Karma plugin. Adapter for CucumberJs testing framework.",
+  "main": "lib/index.js",
+  "sharedKarmaFiles": {
+    "editorconfig": ".editorconfig",
+    "gitattributes": ".gitattributes"
+  },
+  "scripts": {
+    "test": "gulp test"
+  },
+  "repository": {
+    "type": "git"
+  },
+  "keywords": [
+    "karma-plugin",
+    "karma-adapter",
+    "cucumberjs"
+  ],
+  "author": "Joris Wijlens",
+  "dependencies": {},
+  "devDependencies": {
+    "eslint": "^0.22.1",
+    "eslint-config-standard": "^2.0.1",
+    "karma": "~0.12.0",
+    "karma-chai": "~0.1.0",
+    "karma-chrome-launcher": "~0.1.0",
+    "karma-firefox-launcher": "~0.1.0",
+    "cucumber": "latest"
+  }
+}

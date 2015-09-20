@@ -1,0 +1,9 @@
+{
+  "name": "karma-cukes-example",
+  "version": "0.0.1",
+  "author": "Joris Wijlens",
+  "dependencies": {},
+  "devDependencies": {
+    "karma": "^0.13.9"
+  }
+}
